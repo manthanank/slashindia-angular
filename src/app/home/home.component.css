@@ -15,10 +15,6 @@
     align-items: center;
   }
 }
-.t {
-  margin: 2%;
-  overflow: hidden;
-}
 
 figure img{
   max-width: 100%;
