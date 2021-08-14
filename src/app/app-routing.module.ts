@@ -11,15 +11,13 @@ import { PrintingsComponent } from './printings/printings.component';
 import { TablesComponent } from './tables/tables.component';
 
 const routes: Routes = [
-  {path:'home', component : HomeComponent},
+  {path:'', component : HomeComponent},
   {path:'navbar', component : NavbarComponent},
   {path:'footer', component : FooterComponent},
   {path:'services', component : ServicesComponent},
   {path:'carousel', component : CarouselComponent},
   {path:'about', component : AboutComponent},
-  {path:'lamps', component : LampsComponent},
-  {path:'printings', component : PrintingsComponent},
-  {path:'tables', component : TablesComponent},
+
 ];
 
 @NgModule({
