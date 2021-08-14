@@ -12,7 +12,6 @@ import { LampsComponent } from './lamps/lamps.component';
 import { PrintingsComponent } from './printings/printings.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
-import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
     LampsComponent,
     PrintingsComponent,
     AboutComponent,
-    ServicesComponent,
-    LoadingSpinnerComponent
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
