@@ -5,7 +5,9 @@ import { FooterComponent } from './footer/footer.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-
+import { TablesComponent } from './tables/tables.component';
+import { LampsComponent } from './lamps/lamps.component';
+import { PrintingsComponent } from './printings/printings.component';
 
 const routes: Routes = [
   {path:'', component : HomeComponent},
@@ -13,6 +15,9 @@ const routes: Routes = [
   {path:'footer', component : FooterComponent},
   {path:'services', component : ServicesComponent},
   {path:'about', component : AboutComponent},
+  {path:'tables', component : TablesComponent},
+  {path:'lamps', component : LampsComponent},
+  {path:'printings', component : PrintingsComponent},
 ];
 
 @NgModule({
