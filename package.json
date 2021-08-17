@@ -21,6 +21,7 @@
     "@angular/router": "~12.2.0",
     "ag-grid-angular": "^25.3.0",
     "ag-grid-community": "^25.3.0",
+    "ng-semantic": "^1.1.13",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
