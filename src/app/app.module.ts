@@ -13,6 +13,8 @@ import { PrintingsComponent } from './printings/printings.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PaymentComponent } from './payment/payment.component';
+import { TableItemsComponent } from './tables/table-items/table-items.component';
+import { LampItemsComponent } from './lamps/lamp-items/lamp-items.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { PaymentComponent } from './payment/payment.component';
     PrintingsComponent,
     AboutComponent,
     ServicesComponent,
-    PaymentComponent
+    PaymentComponent,
+    TableItemsComponent,
+    LampItemsComponent
   ],
   imports: [
     BrowserModule,
