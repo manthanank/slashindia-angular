@@ -30,8 +30,8 @@ export class TableItemsComponent implements OnInit {
     });
 
     handler.open({
-      name: 'Demo Site',
-      description: '2 widgets',
+      name: 'Pay',
+      description: 'Here!',
       amount: amount * 100
     });
 
