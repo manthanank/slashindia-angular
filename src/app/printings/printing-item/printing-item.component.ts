@@ -1,13 +1,14 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit ,Input} from '@angular/core';
 import { Product } from 'src/app/models/product';
 @Component({
-  selector: 'app-lamp-items',
-  templateUrl: './lamp-items.component.html',
-  styleUrls: ['./lamp-items.component.css']
+  selector: 'app-printing-item',
+  templateUrl: './printing-item.component.html',
+  styleUrls: ['./printing-item.component.css']
 })
-export class LampItemsComponent implements OnInit {
+export class PrintingItemComponent implements OnInit {
+
   @Input() 
-  lampItem!:Product;
+  printingItem!:Product;
   constructor() { }
   handler:any = null;
   ngOnInit(): void {
@@ -60,4 +61,5 @@ export class LampItemsComponent implements OnInit {
       window.document.body.appendChild(s);
     }
   }
+
 }

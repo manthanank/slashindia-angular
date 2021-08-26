@@ -15,6 +15,7 @@ import { ServicesComponent } from './services/services.component';
 import { PaymentComponent } from './payment/payment.component';
 import { TableItemsComponent } from './tables/table-items/table-items.component';
 import { LampItemsComponent } from './lamps/lamp-items/lamp-items.component';
+import { PrintingItemComponent } from './printings/printing-item/printing-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LampItemsComponent } from './lamps/lamp-items/lamp-items.component';
     ServicesComponent,
     PaymentComponent,
     TableItemsComponent,
-    LampItemsComponent
+    LampItemsComponent,
+    PrintingItemComponent
   ],
   imports: [
     BrowserModule,

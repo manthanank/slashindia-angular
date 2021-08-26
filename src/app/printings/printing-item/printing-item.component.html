@@ -10,14 +10,14 @@
     <div class="col" style="padding: 15%;">
       <div class="ui card">
         <div class="ui slide masked reveal image">
-          <img src="{{lampItem.imageUrl}}" class="visible content">
+          <img src="{{printingItem.imageUrl}}" class="visible content">
           <img src="/images/avatar/large/elliot.jpg" class="hidden content">
         </div>
         <div class="content">
-          <a class="header">{{lampItem.name}}</a>
+          <a class="header">{{printingItem.name}}</a>
           <div class="meta">
             <span class="date">Created in Sep 2014</span>
-            <button (click)="pay(lampItem.price)" class="btn btn-primary btn-block">Pay {{lampItem.price}}</button>
+            <button (click)="pay(printingItem.price)" class="btn btn-primary btn-block">Pay {{printingItem.price}}</button>
           </div>
         </div>
       </div>
