@@ -3,12 +3,6 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
 @media (max-width: 800px) {
   .container {
     flex-direction: column;
