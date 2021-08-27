@@ -1,8 +1,8 @@
 <app-carousel></app-carousel>
 <h3 style="text-align: center;padding-top: 60px;">BROWSE POPULAR CATEGORIES</h3><br>
-<div class="container">
+
   <div class="row">
-      <figure class=""><img routerLink="tables" src="https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true" class="img-responsive"
+      <figure><img routerLink="tables" src="https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true" class="img-responsive"
         style="width:100%" alt="Tables">
       </figure><br>
       <h5 class="itemName" style="margin-bottom:2rem;text-align:center;"><b>Tables</b></h5>
@@ -15,5 +15,41 @@
       </figure><br>
       <h5 class="itemName" style="margin-bottom:2rem;text-align:center;"><b>3D Printings</b></h5>
   </div>
-</div>
+
+  <div class="container">
+    <h2 class="section-heading" style="text-align: center;padding-top: 60px;">BROWSE POPULAR CATEGORIES</h2>
+    <div class="categories-wrapper">
+      <div class="category">
+        <div class="col-left">
+          <h4>Tables</h4>
+          <span class="recipes-number">1273 tables</span><br />
+          <a href="#" class="btn" routerLink="tables">see all</a>
+        </div>
+        <figure><img routerLink="tables" src="https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true" class="img-responsive"
+          style="width:100%" alt="Tables">
+        </figure>
+      </div>
+      <div class="category">
+        <div class="col-left">
+          <h4>Lamps</h4>
+          <span class="recipes-number">2033 lamps</span><br />
+          <a href="#" class="btn" routerLink="lamps">see all</a>
+        </div>
+        <figure class=""><img routerLink="lamps" src="https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true" class="img-responsive"
+          style="width:100%" alt="Lamps">
+        </figure>
+      </div>
+      <div class="category">
+        <div class="col-left">
+          <h4>3D Printings</h4>
+          <span class="recipes-number">873 printings</span><br />
+          <a href="#" class="btn" routerLink="printings">see all</a>
+        </div>
+        <figure class=""><img routerLink="printings" src="https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true" class="img-responsive"
+          style="width:100%" alt="3Dprintings">
+        </figure>
+      </div>
+    </div>
+  </div>
+
 <app-footer></app-footer>
