@@ -3,7 +3,7 @@
 }
 
 figure img{
-  max-width: 100%;
+  max-width: 50%;
 -moz-transition: all 0.9s;
 -webkit-transition: all 0.9s;
 transition: all 0.9s;
