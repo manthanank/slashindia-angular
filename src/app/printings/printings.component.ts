@@ -2,7 +2,7 @@ import { Component, OnInit, Input} from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { PrintingsService } from 'src/app/printingservice/printings.service';
 @Component({
-  selector: 'app-printing-item',
+  selector: 'app-printings',
   templateUrl: './printings.component.html',
   styleUrls: ['./printings.component.css']
 })

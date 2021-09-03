@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Product } from 'src/app/models/product';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-table-items',
   templateUrl: './table-items.component.html',
@@ -9,7 +10,10 @@ export class TableItemsComponent implements OnInit {
 
   @Input()
   tableItem!: Product;
-  constructor() { }
+  constructor(private router:Router) { }
+  viewTable(){
+    this.router.navigate(['tableview'])
+  }
   handler:any = null;
   ngOnInit() {
 
