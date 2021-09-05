@@ -55,6 +55,7 @@ body {
   padding: 50px 30px;
   border-radius: 30px;
   position: relative;
+  background-image: url(https://github.com/manthanank/slash/blob/master/src/app/Slash-logo.png?raw=true);
 }
 
 .category h4 {
