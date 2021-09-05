@@ -10,6 +10,7 @@ import { LampsComponent } from './lamps/lamps.component';
 import { PrintingsComponent } from './printings/printings.component';
 import { PaymentComponent } from './payment/payment.component';
 import { TableViewComponent } from './tables/table-view/table-view.component';
+import { CartComponent } from './cart/cart.component';
 const routes: Routes = [
   {path:'', component : HomeComponent},
   {path:'navbar', component : NavbarComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'lamps', component : LampsComponent},
   {path:'printings', component : PrintingsComponent},
   {path:'payment', component : PaymentComponent},
-  {path:'tableview', component: TableViewComponent}
+  {path:'tableview', component: TableViewComponent},
+  {path:'cart', component: CartComponent}
 ];
 
 @NgModule({

@@ -6,21 +6,22 @@
 <br>
 
 <div class="container">
-  <div class="row">
-    <div class="col" style="padding: 15%;">
-      <div class="ui card">
-        <div class="ui slide masked reveal image" (click)="viewTable()">
-          <img src="{{tableItem.imageUrl}}" class="visible content">
-          <img src="/images/avatar/large/elliot.jpg" class="hidden content">
-        </div>
-        <div class="content">
-          <a class="header" (click)="viewTable()">{{tableItem.name}}</a>
-          <div class="meta">
-            <span class="date">Created in Sep 2014</span>
-            <button (click)="pay(tableItem.price)" class="btn btn-primary btn-block">Pay {{tableItem.price}}</button>
+    <div class="row">
+      <div class="col" style="padding: 15%;">
+        <div class="ui card">
+          <div class="ui slide masked reveal image" (click)="viewTable()">
+            <img src="{{tableItem.imageUrl}}" class="visible content">
+            <img src="/images/avatar/large/elliot.jpg" class="hidden content">
+          </div>
+          <div class="content">
+            <a class="header" (click)="viewTable()">{{tableItem.name}}</a>
+            <div class="meta">
+              <span class="date">Created in Sep 2014</span>
+              <button (click)="pay(tableItem.price)" class="btn btn-primary btn-block">Pay {{tableItem.price}}</button>
+              <br><button class="btn btn-primary btn-block">Add to cart</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </div>
