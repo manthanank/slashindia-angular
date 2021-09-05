@@ -17,6 +17,8 @@ import { TableItemsComponent } from './tables/table-items/table-items.component'
 import { LampItemsComponent } from './lamps/lamp-items/lamp-items.component';
 import { PrintingItemComponent } from './printings/printing-item/printing-item.component';
 import { TableViewComponent } from './tables/table-view/table-view.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { TableViewComponent } from './tables/table-view/table-view.component';
     TableItemsComponent,
     LampItemsComponent,
     PrintingItemComponent,
-    TableViewComponent
+    TableViewComponent,
+    CartComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
