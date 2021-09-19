@@ -11,7 +11,11 @@ import { PrintingsComponent } from './printings/printings.component';
 import { PaymentComponent } from './payment/payment.component';
 import { TableViewComponent } from './tables/table-view/table-view.component';
 import { CartComponent } from './cart/cart.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes = [
+  {path:'', redirectTo:'login',pathMatch:'full'},
   {path:'', component : HomeComponent},
   {path:'navbar', component : NavbarComponent},
   {path:'footer', component : FooterComponent},
@@ -22,7 +26,10 @@ const routes: Routes = [
   {path:'printings', component : PrintingsComponent},
   {path:'payment', component : PaymentComponent},
   {path:'tableview', component: TableViewComponent},
-  {path:'cart', component: CartComponent}
+  {path:'cart', component: CartComponent},
+  {path:'login', component: LoginComponent},
+  {path:'signup', component: SignupComponent},
+  {path:'dashboard', component: DashboardComponent}
 ];
 
 @NgModule({

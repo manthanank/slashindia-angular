@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstName": "gagan",
+      "lastName": "ba",
+      "email": "bagagan88@gmail.com",
+      "mobile": "8095168693",
+      "id": 2
+    },
+    {
+      "firstName": "manthan",
+      "lastName": "ank",
+      "email": "manthan.ank46@gmail.com",
+      "mobile": "8105068268",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

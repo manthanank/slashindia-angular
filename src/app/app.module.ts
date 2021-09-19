@@ -19,6 +19,11 @@ import { PrintingItemComponent } from './printings/printing-item/printing-item.c
 import { TableViewComponent } from './tables/table-view/table-view.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,11 +43,16 @@ import { ProductsComponent } from './products/products.component';
     PrintingItemComponent,
     TableViewComponent,
     CartComponent,
-    ProductsComponent
+    ProductsComponent,
+    LoginComponent,
+    SignupComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
