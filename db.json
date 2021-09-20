@@ -20,11 +20,12 @@
       "id": 3
     }
   ],
-  "comments": [
+  "signupUsers": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "fullname": "manthan",
+      "mobile": "8105068268",
+      "email": "manthan.ank46@gmail.com",
+      "password":"12345"
     }
   ],
   "profile": {
