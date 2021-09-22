@@ -27,11 +27,17 @@
           <li><button class="dropdown-item" routerLink="printings">3D Printings</button></li>
         </ol>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="cart">Cart</a>
+      </li>
     </ul>
   </div>
-  <button routerLink="cart" class="btn btn-primary">Cart
-    <div style="font-size: 10px;" class="badge bg-danger"></div>
-</button>
+  <form class="d-flex">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+  <a routerLink="/signup">New User? Click to signup!</a>
 </div>
 </nav>
 <!--navigation end-->
